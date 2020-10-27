@@ -1,3 +1,8 @@
+# DeepProbLog for Baseline
+
+`process.py` and `run_baselines.py` contain the code used to run the baselines
+over the 5 folds found in `data/5folds/`.
+
 # DeepProbLog
 
 DeepProbLog is an extension of [ProbLog](https://dtai.cs.kuleuven.be/problog/) that integrates Probabilistic Logic Programming with Deep Learning. See our [paper](https://arxiv.org/abs/1805.10872) on DeepProbLog.

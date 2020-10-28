@@ -53,8 +53,8 @@ def test_MNIST(model,max_digit=10,name='mnist_net'):
         FP = sum(confusion[:,nr])-TP
         FN = sum(confusion[nr,:])-TP
         F1 += 2*TP/(2*TP+FP+FN)*(FN+TP)/N
-    print('F1: ',F1)
-    return [('F1',F1)]
+    print('F1: ', F1)
+    return [('F1', F1)]
 
 
 def neural_predicate(network, i, dataset='train'):

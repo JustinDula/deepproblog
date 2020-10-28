@@ -10,7 +10,7 @@ import torch
 queries = load('train_data.txt')
 
 with open('addition.pl') as f:
-    problog_string = f.read()
+	problog_string = f.read()
 
 
 network = MNIST_Net()

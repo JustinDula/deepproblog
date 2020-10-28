@@ -1,3 +1,5 @@
+data/5folds-processed/*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

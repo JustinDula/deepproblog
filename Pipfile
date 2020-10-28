@@ -10,3 +10,4 @@ python_version = '3.8'
 torch  = "*"
 problog = "*"
 scikit-learn = "*"
+torchvision = "*"

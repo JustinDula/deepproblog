@@ -1,1 +1,0 @@
-CoAuthor(X,Y).

@@ -1,4 +1,5 @@
 data/5folds-processed/*
+models/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

@@ -50,9 +50,11 @@ def make_test_train_files():
 			f.write(f"""{to_evidences(train_p, True)}\n""")
 			f.write(f"""{to_evidences(train_n, False)}\n""")
 
-		with open(pjoin(path, "test.pl"), "w") as f:
+		with open(pjoin(path, "test_pos.pl"), "w") as f:
 			f.write(f"""{to_queries(test_p, 1)}\n""")
-			f.write(f"""{to_queries(test_n, 1)}\n""")
+
+		with open(pjoin(path, "test_neg.pl"), "w") as f:
+			f.write(f"""{to_queries(test_n, 0)}\n""")
 
 		with open(pjoin(path, "tr_labels.txt"), "w") as f:
 			f.writelines(["1\n" for _ in train_p] + ["0\n" for _ in train_n])
